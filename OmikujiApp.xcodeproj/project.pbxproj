@@ -13,6 +13,8 @@
 		FC9343522AA2DB8B00ADD167 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9343502AA2DB8B00ADD167 /* Main.storyboard */; };
 		FC9343542AA2DB8D00ADD167 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC9343532AA2DB8D00ADD167 /* Assets.xcassets */; };
 		FC9343572AA2DB8D00ADD167 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC9343552AA2DB8D00ADD167 /* LaunchScreen.storyboard */; };
+		FC9343612AA31E8600ADD167 /* drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC93435F2AA31E8600ADD167 /* drum.mp3 */; };
+		FC9343622AA31E8600ADD167 /* bell.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC9343602AA31E8600ADD167 /* bell.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FC9343532AA2DB8D00ADD167 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC9343562AA2DB8D00ADD167 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC9343582AA2DB8D00ADD167 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC93435F2AA31E8600ADD167 /* drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = drum.mp3; sourceTree = "<group>"; };
+		FC9343602AA31E8600ADD167 /* bell.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bell.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		FC9343492AA2DB8B00ADD167 /* OmikujiApp */ = {
 			isa = PBXGroup;
 			children = (
+				FC93435E2AA31E8500ADD167 /* omikuji_sound */,
 				FC93434A2AA2DB8B00ADD167 /* AppDelegate.swift */,
 				FC93434C2AA2DB8B00ADD167 /* SceneDelegate.swift */,
 				FC93434E2AA2DB8B00ADD167 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				FC9343582AA2DB8D00ADD167 /* Info.plist */,
 			);
 			path = OmikujiApp;
+			sourceTree = "<group>";
+		};
+		FC93435E2AA31E8500ADD167 /* omikuji_sound */ = {
+			isa = PBXGroup;
+			children = (
+				FC93435F2AA31E8600ADD167 /* drum.mp3 */,
+				FC9343602AA31E8600ADD167 /* bell.mp3 */,
+			);
+			path = omikuji_sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +140,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC9343572AA2DB8D00ADD167 /* LaunchScreen.storyboard in Resources */,
+				FC9343622AA31E8600ADD167 /* bell.mp3 in Resources */,
 				FC9343542AA2DB8D00ADD167 /* Assets.xcassets in Resources */,
+				FC9343612AA31E8600ADD167 /* drum.mp3 in Resources */,
 				FC9343522AA2DB8B00ADD167 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,8 +309,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,8 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
